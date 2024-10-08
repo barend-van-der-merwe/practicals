@@ -6,7 +6,7 @@ from PIL import Image
 import io
 import re
 
-st.title("Practical 3 - Distance")
+st.title("Practical 4 - Distance")
 st.info("""
 INSTRUCTIONS
 - Select the student submission
