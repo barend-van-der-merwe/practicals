@@ -68,18 +68,18 @@ if image is not None:
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("Question 1")
-        st.checkbox("AB Distance in meters correct (+- 100)",key="chk1")
-        st.checkbox("AB Distance in kilometers correct (+- 0.1)", key="chk2")
-        st.checkbox("CD Distance in meters correct (+- 100)", key="chk3")
-        st.checkbox("CD Distance in kilometers correct+- 0.1", key="chk4")
-        st.checkbox("EF Distance in meters correct (+- 100)", key="chk5")
-        st.checkbox("EF Distance in kilometers correct+- 0.1", key="chk6")
+        st.checkbox("AB Distance in meters correct (6050m - 6250m)",key="chk1")
+        st.checkbox("AB Distance in kilometers correct (6.05km - 6.25km)", key="chk2")
+        st.checkbox("CD Distance in meters correct (1400m-1600m)", key="chk3")
+        st.checkbox("CD Distance in kilometers correct(1.4km - 4.6km)", key="chk4")
+        st.checkbox("EF Distance in meters correct (4250m - 4450m)", key="chk5")
+        st.checkbox("EF Distance in kilometers correct (4.25km - 4.45km)", key="chk6")
 
     with col2:
         st.subheader("Question 2")
         st.checkbox("Work shown on plot", key="chk7")
         st.checkbox("Calculations shown", key='chk8')
-        st.checkbox("Answer correct (+- 1 km)", key='chk9')
+        st.checkbox("Answer correct (12.75km - 14.75km)", key='chk9')
 
     global q1_grade
     global q2_grade
