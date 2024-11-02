@@ -71,7 +71,7 @@ if image is not None:
         st.checkbox("AB Distance in meters correct (6050m - 6250m)",key="chk1")
         st.checkbox("AB Distance in kilometers correct (6.05km - 6.25km)", key="chk2")
         st.checkbox("CD Distance in meters correct (1400m-1600m)", key="chk3")
-        st.checkbox("CD Distance in kilometers correct(1.4km - 4.6km)", key="chk4")
+        st.checkbox("CD Distance in kilometers correct(1.4km - 1.6km)", key="chk4")
         st.checkbox("EF Distance in meters correct (4250m - 4450m)", key="chk5")
         st.checkbox("EF Distance in kilometers correct (4.25km - 4.45km)", key="chk6")
 
